@@ -1,0 +1,579 @@
+.html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* main */
+
+.main {
+  background: url(/img/main-bg.jpg);
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+
+.main1 h1 {
+  position: relative;
+  font-size: 6vw;
+  top: 33vh;
+}
+
+.main1 p {
+  position: relative;
+  font-size: 3vw;
+  top: 32vh;
+}
+
+.main1 button {
+  position: relative;
+  top: 38vh;
+  height: 7vh;
+  width: 18vw;
+}
+
+.main1 button a {
+  text-decoration: none;
+  color: black;
+}
+
+.main1 h6 {
+  position: relative;
+  top: 55vh;
+}
+
+.main1 img {
+  position: relative;
+  top: 54vh;
+}
+
+/* main2 */
+
+.main2 {
+  background: url(/img/backgroundgunting.jpg);
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+
+.main2 p {
+  position: relative;
+  font-size: 2vw;
+  top: 33vh;
+  left: 5vw;
+  width: 16vw;
+}
+
+.main2 h1 {
+  position: relative;
+  font-size: 5vw;
+  top: 33vh;
+  left: 5vw;
+  width: 28vw;
+}
+
+/* main2-1 */
+
+.main2-1 {
+  position: relative;
+  width: 55vw;
+  left: 35vw;
+  top: 21vh;
+}
+
+/* main3 */
+
+.main3 {
+  background: url(/img/features.jpg);
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+
+.main3 p {
+  position: relative;
+  font-size: 2vw;
+  top: 19vh;
+  left: 54vw;
+  width: 20vw;
+}
+
+.main3 h1 {
+  position: relative;
+  font-size: 5vw;
+  top: 19vh;
+  left: 54vw;
+  width: 16vw;
+}
+
+/* main3-1 */
+
+.main3-1 {
+  position: relative;
+  top: 5vh;
+}
+
+.main3-1 p,
+span {
+  position: relative;
+  font-size: 2vw;
+}
+
+.main3-1 p {
+  position: relative;
+  font-size: 2vw;
+  top: 19vh;
+  left: 54vw;
+  width: 36vw;
+}
+
+.main3-1 i {
+  position: relative;
+  top: 2vh;
+  left: 54vw;
+  width: 12vw;
+}
+
+/* main3-2 */
+
+.main3-2 p {
+  position: relative;
+  font-size: 2vw;
+  top: 26vh;
+  left: 54vw;
+  width: 12vw;
+}
+
+.main3-2 i {
+  position: relative;
+  top: 25vh;
+  left: 54vw;
+  width: 12vw;
+}
+
+/* main3-3 */
+
+.main3-3 p {
+  position: relative;
+  font-size: 2vw;
+  top: 28vh;
+  left: 54vw;
+  width: 12vw;
+}
+
+/* main4 */
+
+.main4 {
+  background: url(/img/system.png);
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+
+/* main5 */
+
+.main5 {
+  background: url(/img/topscore.jpg);
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+
+.main5 h1 {
+  position: relative;
+  font-size: 3vw;
+  top: 39vh;
+  left: 9vw;
+  width: 20vw;
+}
+
+.main5 p {
+  position: relative;
+  font-size: 1vw;
+  top: 39vh;
+  left: 9vw;
+  width: 20vw;
+}
+
+.main5 button {
+  position: relative;
+  top: 40vh;
+  left: 9vw;
+  height: 7vh;
+  width: 14vw;
+}
+
+/* main5-2 */
+
+.main5-2 {
+  position: relative;
+  top: -15vh;
+  left: 71vw;
+  height: 7vh;
+  width: 24vw;
+}
+
+.main5-2 img {
+  position: relative;
+  height: 10vh;
+  width: 5vw;
+  padding: 10px;
+}
+
+.main5-2 h5 {
+  position: relative;
+  font-size: 1vw;
+  top: -9vh;
+  left: 6vw;
+  width: 20vw;
+}
+
+.main5-2 p {
+  position: relative;
+  font-size: 0.7vw;
+  top: -10vh;
+  left: 6vw;
+  width: 20vw;
+}
+
+/* main5-2-1 */
+
+.main5-2-1 h6 {
+  position: relative;
+  font-size: 0.9vw;
+  top: -7vh;
+  left: 1vw;
+}
+
+.main5-2-1 p {
+  position: relative;
+  font-size: 0.7vw;
+  top: -7vh;
+  left: 1vw;
+}
+
+.main5-2-1 img {
+  position: absolute;
+  height: 2.5vw;
+  width: 2.5vw;
+  top: 0.1vh;
+  left: 21vw;
+}
+
+/* main5-3 */
+
+.main5-3 {
+  position: relative;
+  top: 7vh;
+  left: 54vw;
+  height: 7vh;
+  width: 30vw;
+}
+
+.main5-3 img {
+  position: relative;
+  height: 10vh;
+  width: 5vw;
+  padding: 10px;
+}
+
+.main5-3 h6 {
+  position: relative;
+  font-size: 1vw;
+  top: -9vh;
+  left: 12vh;
+  width: 20vw;
+}
+
+.main5-3 p {
+  position: relative;
+  font-size: 0.7vw;
+  top: -10vh;
+  left: 12vh;
+  width: 20vw;
+}
+
+/* main5-3-1 */
+
+.main5-3-1 h6 {
+  position: relative;
+  font-size: 0.9vw;
+  top: -8vh;
+  left: 1vw;
+}
+
+.main5-3-1 p {
+  position: relative;
+  font-size: 0.7vw;
+  top: -7vh;
+  left: 1vw;
+}
+
+.main5-3-1 img {
+  position: absolute;
+  height: 2.5vw;
+  width: 2.5vw;
+  top: 0.1vh;
+  left: 27vw;
+}
+
+/* main5-4 */
+
+.main5-4 {
+  position: relative;
+  top: 30vh;
+  left: 60vw;
+  height: 7vh;
+  width: 30vw;
+}
+
+.main5-4 img {
+  position: relative;
+  height: 10vh;
+  width: 5vw;
+  padding: 10px;
+}
+
+.main5-4 h6 {
+  position: relative;
+  font-size: 1vw;
+  top: -8vh;
+  left: 13vh;
+  width: 20vw;
+}
+
+.main5-4 p {
+  position: relative;
+  font-size: 0.7vw;
+  top: -8vh;
+  left: 13vh;
+  width: 20vw;
+}
+
+/* main5-4-1 */
+
+.main5-4-1 h6 {
+  position: relative;
+  font-size: 0.9vw;
+  top: -8vh;
+  left: 1vw;
+}
+
+.main5-4-1 p {
+  position: relative;
+  font-size: 0.7vw;
+  top: -7vh;
+  left: 1vw;
+}
+
+.main5-4-1 img {
+  position: absolute;
+  height: 2.5vw;
+  width: 2.5vw;
+  top: 0.1vh;
+  left: 27vw;
+}
+
+/* main6 */
+
+.main6 {
+  background: url(/img/top.jpg);
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+
+.main6 img {
+  position: absolute;
+  top: 10vh;
+  left: 15vw;
+  width: 17vw;
+}
+
+.main6 p {
+  position: relative;
+  font-size: 1.3vw;
+  top: 15vh;
+  left: 40vw;
+}
+
+.main6 h1 {
+  position: relative;
+  font-size: 2vw;
+  top: 15vh;
+  left: 40vw;
+}
+
+.main6 form {
+  position: relative;
+  top: 15vh;
+  left: 40vw;
+}
+
+.main6 button {
+  position: relative;
+  top: 7vh;
+  left: 70vw;
+  width: 15vw;
+  height: 8vh;
+}
+
+/* footer */
+
+footer {
+  z-index: 2;
+  width: 90vw;
+  height: 0vh;
+  position: relative;
+  top: -16vh;
+  left: 3vw;
+}
+
+/* footer1 */
+
+.footer1 {
+  position: relative;
+  left: 1vw;
+  width: 20vw;
+}
+
+.footer1 img {
+  position: relative;
+  top: 1vh;
+  left: 0vw;
+}
+
+.footer1 p {
+  color: gray;
+  position: relative;
+  top: -2vh;
+  left: 2vw;
+}
+
+/* footer2 */
+
+.footer2 {
+  position: relative;
+  left: 57vw;
+  top: -8vh;
+  width: 7vw;
+  height: 5vh;
+}
+
+/* footer3 */
+
+.footer3 {
+  position: relative;
+  left: 67vw;
+  top: -13vh;
+  width: 10vw;
+}
+
+.footer3 p {
+  padding-left: 10px;
+}
+
+/* footer4 */
+
+.footer4 {
+  position: relative;
+  left: 81vw;
+  top: -18vh;
+  width: 10vw;
+}
+
+.footer4 p {
+  padding-left: 1vw;
+}
+
+/* Login */
+
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.form1 {
+  position: relative;
+  width: 500px;
+  height: 250px;
+  background-color: white;
+  opacity: 10;
+  text-align: center;
+  padding: 20px;
+}
+
+.form1 h1 {
+  padding: 10px;
+}
+
+input {
+  position: relative;
+  left: 150px;
+  display: block;
+}
+
+.form1 button {
+  margin: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 42px;
+  transform: rotate(45deg);
+}
+
+/* Sign Up */
+
+.bg-modals {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.form2 {
+  position: relative;
+  width: 500px;
+  height: 250px;
+  background-color: white;
+  opacity: 10;
+  text-align: center;
+  padding: 20px;
+}
+
+.form2 button {
+  margin: 10px;
+}
+
+input {
+  position: relative;
+  left: 150px;
+  display: block;
+}
+
+.close1 {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 42px;
+  transform: rotate(45deg);
+}
