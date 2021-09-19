@@ -12,12 +12,18 @@ module.exports = {
         type: Sequelize.INTEGER,
         references: {
           model: {
-            User_game_history: 'users',
+            tableName: 'User_games',
             schema: 'public'
           },
           key: 'id'
         },
         allowNull: false
+      },
+      result: {
+        type: Sequelize.STRING
+      },
+      score: {
+        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,
