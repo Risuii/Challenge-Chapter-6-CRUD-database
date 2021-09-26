@@ -57,41 +57,47 @@ app.get('/database/create', (req, res) => {
 app.post('/database/create', (req, res) => {
   User_game.create({
     username: req.body.username,
-    password: req.body.password
-  })
-  .then(() => {
-    User_game_biodata.create({
-      id_user: req.body.id_user,
+    password: req.body.password,
+    // code dibawah ini harus sesuai dengan yang ada di dalam "as:"
+    user_game_biodatas: {
       name: req.body.name,
       age: req.body.age
-    })
-    .then(() => {
-      res.render('create/berhasilCreate')
-    })
+    }
+  }, {
+    include: {
+      model: User_game_biodata,
+      as: 'user_game_biodatas'
+    }
+  }).then (() => {
+    res.render('create/berhasilCreate')
   })
 })
 
 // Read
 
 app.get('/database/:id', (req, res) => {
-  User_game.findOne({ where: { id: req.params.id }})
-  .then((read) => {
-    User_game_biodata.findOne({ where: { id_user: req.params.id}})
-    .then((reads) => {
-      res.render('read/read', {read,reads})
-    })
+  User_game.findOne({
+    where: { id: req.params.id },
+    include: {
+      model: User_game_biodata,
+      as: 'user_game_biodatas'
+    }
+  }).then((read) => {
+    res.render('read/read', { read })
   })
 })
 
 // Update
 
 app.get('/database/update/:id', (req, res) => {
-  User_game.findOne({ where: { id: req.params.id } })
-  .then((update) => {
-    User_game_biodata.findOne({ where: { id_user: req.params.id }})
-    .then((updates) => {
-      res.render('update/update', {update,updates})
-    }) 
+  User_game.findOne({
+    where: { id: req.params.id },
+    include: {
+      model: User_game_biodata,
+      as: 'user_game_biodatas'
+    }
+  }).then((update) => {
+    res.render('update/update', { update })
   })
 })
 

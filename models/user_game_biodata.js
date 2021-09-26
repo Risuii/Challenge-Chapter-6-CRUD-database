@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      // define association here
+      User_game_biodata.belongsTo(models.User_game, {as: 'user_games', foreignKey: 'id_user', sourceKey: 'id' });
     }
   };
   User_game_biodata.init({
